@@ -1,0 +1,154 @@
+body {
+    background-color: #B4FFB0;
+    margin: 0;
+}
+
+#p1 {
+    margin: 2cm;
+    margin-right: 18cm;
+    margin-top: 3cm;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#p2 {
+    margin: 2cm;
+    margin-top: 2cm;
+    margin-left: 19cm;
+    margin-top: 1cm;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#titulo1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #18321b;
+    margin-top: 2cm;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #18321b;
+}
+
+#t2 {
+    text-align: center;
+    color: #18321b;
+    text-shadow: 1px 1px 2px #18321b;
+    font-size: 30px;
+}
+
+.container1 {
+    display: flex;
+}
+
+#img1 {
+    margin-left: 30cm;
+    margin-top: -7cm;
+}
+
+#img2 {
+    margin-top: -3cm;
+    float: left;
+}
+
+#p3 {
+    margin-left: 5cm;
+    margin-right: 5cm;
+    font-size: 20px;
+}
+
+#t3 {
+    font-size: 35px;
+    color: #18321b;
+    text-decoration-line: underline;
+    text-shadow: 1px 1px 2px #18321b;
+    margin-left: 11cm;
+    margin-right: 9cm;
+    
+}
+
+#p4 {
+    font-size: 20px;
+    margin-left: 5cm;
+    margin-right: 30cm;
+    background-color: #6BC97A;
+    border: green solid 1px;
+
+
+
+}
+
+#p5 {
+    font-size: 20px;
+    margin-left: 25cm;
+    margin-right: 5cm;
+    margin-top: -2.9cm;
+    background-color: #6BC97A;
+    border: green solid 1px;
+}
+
+#p6 {
+    font-size: 20px;
+    margin-left: 5cm;
+    margin-right: 30cm;
+    background-color: #6BC97A;
+    margin-top: 3cm;
+    border: green solid 1px;
+}
+
+#p7 {
+    font-size: 20px;
+    margin-left: 25cm;
+    margin-right: 5cm;
+    background-color: #6BC97A;
+    margin-top: -2.9cm;
+    border: green solid 1px;
+}
+
+#p8 {
+    font-size: 20px;
+    margin-left: 5cm;
+    margin-right: 30cm;
+    background-color: #6BC97A;
+    margin-top: 2cm;
+    border: green solid 1px;
+
+}
+
+#p9 {
+    font-size: 20px;
+    margin-left: 25cm;
+    margin-right: 5cm;
+    background-color: #6BC97A;
+    margin-top: -4cm;
+    border: green solid 1px;
+}
+
+.container3{
+    display: flex;
+    justify-content: space-between;
+    background-color: #3E7E44;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    padding-right: 15vh;
+}
+
+.links ul{
+    display: flex;
+    gap: 7vh;
+}
+
+.links ul li{
+    list-style: none;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
+}
